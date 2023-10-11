@@ -1,13 +1,18 @@
 # K-OMG | Generation of Korean Offensive Language by Leveraging Large Language Models via Prompt Design
 
 This repository includes the prompt design and the example dataset of Korean offensive language, which were published at the IJCNLP-AACL 2023 main conference paper.
-This repository consists of two directories: *<ins>data</ins>* and *<ins>prompt</ins>*.
+This repository consists of two directories: *<ins>prompt</ins>* and *<ins>data</ins>*.
 
+
+## Directory: prompt
+*<ins>prompt<ins/>* directory provides prompt design templates and offensive language generation codes.
+You can control the prompt condition through arguments.
+Generation function calls 
 
 ## Data
 
 
-## Prompt Design
+
 
 
 ## How to run
