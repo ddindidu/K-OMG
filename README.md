@@ -1,21 +1,53 @@
 # K-OMG | Generation of Korean Offensive Language by Leveraging Large Language Models via Prompt Design
 
 This repository includes the prompt design and the example dataset of Korean offensive language, which were published at the IJCNLP-AACL 2023 main conference paper.
-This repository consists of two directories: *<ins>prompt</ins>* and *<ins>data</ins>*.
+This repository consists of two directories: `prompt` and `data`.
 
 
-## Directory: prompt
-*<ins>prompt<ins/>* directory provides prompt design templates and offensive language generation codes.
-You can control the prompt condition through arguments.
-Generation function calls 
+## Directory `prompt`
+`prompt` directory provides prompt design templates and offensive language generation codes.
+Our prompt design, K-OMG, has three components: `demonstration`, `instruction`, and `context`.
+We experimented with some conditions for each component.
+```
+Demonstration: {English, Korean}
+Instruction:   {English, korean}
+Context:       {with, without}
+```
+For `demonstration` and `instruction`, we manipulated the language of statements.
+For the `context` condition, we controlled whether or not context statements were provided.
+You can check the prompt format in the example code `prompt/generate.py`.
+### How to run
+```bash
+cd prompt
+python generate.py --model 'gpt-3.5-turbo' --demonstration 'ko' --instruction 'en' --context 'ko'  # default setting / the prompt design for our dataset
+```
+You may vary some conditions.
+```
+--------------------
+arguments
+--------------------
+model
+  'gpt-3.5-turbo'
+  'text-davinci-003'
+demonstration
+  'en'
+  'ko'
+instruction
+  'en'
+  'ko'
+context
+  'none'  # without
+  'ko'    # with
+```
 
-## Data
+
+## Directory `data`
 
 
 
 
 
-## How to run
+
 
 
 
