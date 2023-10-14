@@ -3,6 +3,7 @@
 This repository includes the prompt design and the example dataset of machine-generated Korean offensive language, which were published at the IJCNLP-AACL 2023 main conference paper.
 This repository consists of two directories: `prompt` and `data`.
 
+<b>Keywords: LLM (Large Language Model), Data Generation, Prompt Design, Machine-Generated Data, Low-Resource Language, Korean, Offensive Language</b>
 
 ## Directory `prompt`
 `prompt` directory provides prompt design templates and offensive language generation codes.
