@@ -110,8 +110,11 @@ If you want a larger dataset, you can make a new K-OMG LARGE dataset with our pr
 
 
 
+## Note
+- Table 1: The SELF-BLEU scores in Table 1 (in the paper) are 100 times the original score.
 
 
+  
 ## Citation
 ```
 @inproceedings{shin2023generation,
