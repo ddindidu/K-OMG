@@ -52,8 +52,8 @@ Our experimental setup is as follows:
   - [text-davinci-003](https://platform.openai.com/docs/models/gpt-3)
   - [polyglot-ko-1.3b](https://huggingface.co/EleutherAI/polyglot-ko-1.3b)
 - Demonstration
-  - English: [CADD](https://github.com/nlpcl-lab/CADD_dataset) (Song et al., 2021)
-  - Korean: [KOLD](https://github.com/boychaboy/KOLD) (Jeong et al., 2022)
+  - English: CADD [(Song et al., 2021)](https://github.com/nlpcl-lab/CADD_dataset)
+  - Korean: KOLD [(Jeong et al., 2022)](https://github.com/boychaboy/KOLD)
 - Instruction
   - English
   - Korean
