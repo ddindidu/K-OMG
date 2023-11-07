@@ -118,9 +118,14 @@ If you want a larger dataset, you can make a new K-OMG LARGE dataset with our pr
 ## Citation
 ```
 @inproceedings{shin2023generation,
-  title={Generation of Korean Offensive Language by Leveraging Large Language Models via Prompt Design},
-  author={Shin, Jisu and Song, Hoyun and Lee, Huije and Gaim, Fitsum and Park, Jong C},
-  booktitle={Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics},
-  year={2023}
+  author    = {Shin, Jisu and Song, Hoyun and Lee, Huije and Gaim, Fitsum and Park, Jong},
+  title     = {Generation of Korean Offensive Language by Leveraging Large Language Models via Prompt Design},
+  booktitle      = {Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics},
+  month          = {November},
+  year           = {2023},
+  address        = {Nusa Dua, Bali},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {960--979},
+  url       = {https://aclanthology.org/2023.ijcnlp-long.62}
 }
 ```
