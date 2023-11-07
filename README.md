@@ -53,8 +53,8 @@ Our experimental setup is as follows:
   - [polyglot-ko-1.3b](https://huggingface.co/EleutherAI/polyglot-ko-1.3b)
 - Demonstration
   - English: CADD ([Song et al., 2021](https://github.com/nlpcl-lab/CADD_dataset))
-  - Korean: KOLD ([Jeong et al., 2022](https://github.com/boychaboy/KOLD)
-- Instruction)
+  - Korean: KOLD ([Jeong et al., 2022](https://github.com/boychaboy/KOLD))
+- Instruction
   - English
   - Korean
 - Context
