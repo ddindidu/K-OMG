@@ -1,6 +1,6 @@
 # K-OMG | Generation of Korean Offensive Language by Leveraging Large Language Models via Prompt Design
 
-This repository includes the prompt design and the example dataset of machine-generated Korean offensive language, which were published at the IJCNLP-AACL 2023 main conference paper ([link to paper](https://www.researchgate.net/publication/375597347_Generation_of_Korean_Offensive_Language_by_Leveraging_Large_Language_Models_via_Prompt_Design)).
+This repository includes the prompt design and the example dataset of machine-generated Korean offensive language, which were published at the IJCNLP-AACL 2023 main conference paper ([link to paper](https://aclanthology.org/2023.ijcnlp-main.62/)).
 This repository consists of two directories: `prompt` and `data`.
 
 <b>Keywords: LLM (Large Language Model), Data Generation, Prompt Design, Machine-Generated Data, Low-Resource Language, Korean, Offensive Language</b>
@@ -117,15 +117,19 @@ If you want a larger dataset, you can make a new K-OMG LARGE dataset with our pr
   
 ## Citation
 ```
-@inproceedings{shin2023generation,
-  author    = {Shin, Jisu and Song, Hoyun and Lee, Huije and Gaim, Fitsum and Park, Jong},
-  title     = {Generation of Korean Offensive Language by Leveraging Large Language Models via Prompt Design},
-  booktitle      = {Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics},
-  month          = {November},
-  year           = {2023},
-  address        = {Nusa Dua, Bali},
-  publisher      = {Association for Computational Linguistics},
-  pages     = {960--979},
-  url       = {https://aclanthology.org/2023.ijcnlp-long.62}
+@inproceedings{shin-etal-2023-generation,
+    title = "Generation of {K}orean Offensive Language by Leveraging Large Language Models via Prompt Design",
+    author = "Shin, Jisu  and
+      Song, Hoyun  and
+      Lee, Huije  and
+      Gaim, Fitsum  and
+      Park, Jong",
+    booktitle = "Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = nov,
+    year = "2023",
+    address = "Nusa Dua, Bali",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.ijcnlp-main.62",
+    pages = "960--979",
 }
 ```
